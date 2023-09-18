@@ -1,0 +1,22 @@
+package sum1;
+
+public class sum1 {
+
+	private static final int A = 0;
+	private static final int S = 0;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char c;
+		for(c='A'; c<='z'; ++c)
+			System.out.print(c + " ");
+		int num =S, sum = 0;
+		for (int i=A; i<=num; ++i)
+		{
+			sum += i;
+		}
+		System.out.println("sum= " + sum);
+
+	}
+
+}
